@@ -48,8 +48,12 @@ h1{
     margin: 10%;
     font-size: 4em;
     color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
     
 }
+span#two.spa{width: 80px;} 
+span#three.spa{width: 80px;} 
 #htu{color: #d35400;}
 /* #lols{
     display: flex;
