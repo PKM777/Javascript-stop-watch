@@ -12,8 +12,8 @@ mils.style.display="none";
 sec.style.display="none";
 start.addEventListener('click', milisec);
 function milisec(){
-    mils.style.display="inline";
-    sec.style.display="inline";
+    mils.style.display="block";
+    sec.style.display="block";
     reset.style.color="white";
     stop.style.color="white";
     mils.style.color="#d35400";
