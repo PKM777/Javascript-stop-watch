@@ -4,9 +4,7 @@ let reset = document.getElementById('rt');
 let min = document.getElementById('one');
 let sec = document.getElementById('two');
 let mils = document.getElementById('three');
-// let htr = document.getElementById('head3');
-// let catc = document.getElementById('tap');
-// let bake = document.getElementById('lols');
+
 
 mils.style.display="none";
 sec.style.display="none";
@@ -52,18 +50,7 @@ function milisec(){
          document.querySelector('h3').remove();
          location.reload();
      }
-    //  catc.addEventListener('click', saveit);
-    //  function saveit(){
-    //     bake.style.display="contents";
-    //     let bata = document.createElement('h3');
-    //     bata.setAttribute("id","cood");
-        
-    //     let news = bake.appendChild(bata);
-    //     let oo = document.getElementById('cood');
-    //     console.log("hi");
-    //     news.innerHTML = sec.innerHTML + ":"+ mils.innerHTML;
-    //  }
-
+   
 }
 
 
